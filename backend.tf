@@ -11,7 +11,7 @@ terraform {
         bucket = "tfcbzb64"
         key = "terraform.tfstate"
         dynamodb_table = "cbztf"
-        region = "us-east-1"
+        region = "us-east-2"
         profile = "configs"
         shared_credentials_files = ["/home/sachin/.aws/credentials"]
     }
