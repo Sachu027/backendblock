@@ -1,5 +1,5 @@
 provider "aws" {
-      region = "us-east-1"
+      region = "us-east-2"
       profile = "configs"
       shared_credentials_files = ["/home/sachin/.aws/credentials"]
     
